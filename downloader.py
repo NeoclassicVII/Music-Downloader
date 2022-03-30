@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 colorama.init()
 
-def music_download():
+def main():
   # Song Downloader 
   def songDownloader():
     ydl_opts = {
@@ -34,13 +34,13 @@ def music_download():
       again = input()
 
       if again:
-        music_download()
+        main()
 
   # LastFM URL's
   LASTFM_URL = "https://www.last.fm"
   searchURL = "https://www.last.fm/search?q="
 
-  # Genres (Tags)
+  # Genres (Tags) [HERE YOU CAN ADD YOUR OWN TAGS/GENRES]
   genres = [
   "deathcore","power metal","heavy metal","death metal","black metal","thrash metal","alternative metal","nu metal","folk black metal",
   "trve kvlt","symphonic black metal","ambient black metal","technical deathcore","blackened technical death metal","norwegian black metal","brutal death metal",
@@ -80,7 +80,7 @@ def music_download():
     print(Fore.RED + "[-] No Internet Connection!")
     print(Fore.WHITE)
     time.sleep(1.7)
-    music_download()
+    main()
 
   soup = BeautifulSoup(source, "lxml")
   findSongList = soup.find("tbody")
@@ -90,7 +90,7 @@ def music_download():
     print(Fore.RED + "[-]" + Fore.WHITE + " No song found! ")
     time.sleep(1.2)
     os.system("cls")
-    music_download()
+    main()
 
   findSong = findSongList.find("tr")
   findUrl = findSong.find("td", class_="chartlist-name").a
@@ -108,7 +108,7 @@ def music_download():
     print()
     print(Fore.RED + "[-] No song found!" + Fore.WHITE)
     time.sleep(1.1)
-    music_download()
+    main()
 
   tags = findTag.find_all("li", class_="tag")
 
@@ -151,9 +151,9 @@ def music_download():
     print()
     print(Fore.RED + "[-] No song found!" + Fore.WHITE)
     time.sleep(1.1)
-    music_download()
+    main()
 
 try:
-	music_download()
+	main()
 except KeyboardInterrupt:
 	sys.exit()
