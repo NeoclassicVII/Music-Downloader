@@ -74,7 +74,7 @@ def main():
     source = requests.get(searchURL+song).text
   except (requests.ConnectionError, requests.Timeout) as exception:
     time.sleep(0.7)
-    nl()
+    print()
     print(Fore.RED + "[-] No Internet Connection!")
     print(Fore.WHITE)
     time.sleep(1.7)
