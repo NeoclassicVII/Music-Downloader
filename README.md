@@ -25,7 +25,6 @@ For example:
 - rap
 - hip-hop
 - gangsta rap
-- rap
 - mumble rap
 etc.
 
