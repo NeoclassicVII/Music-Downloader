@@ -32,9 +32,7 @@ def main():
       print()
       startagain = print(Fore.YELLOW + "Click ENTER to start again!" + Fore.WHITE, end="")
       again = input()
-
-      if again:
-        main()
+      main()
 
   # LastFM URL's
   LASTFM_URL = "https://www.last.fm"
