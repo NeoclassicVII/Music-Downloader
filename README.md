@@ -28,6 +28,9 @@ For example:
 - mumble rap
 etc.
 
+Here's a screenshot of the list, where you can add tags:
+[![thelist.png](https://i.postimg.cc/VvfhbqBf/thelist.png)](https://postimg.cc/MML5CjFN)
+
 All of these tags are on LastFM, it's important. Just search on LastFM for the tags you want, check, if they exist and if there are songs with those tags and then add them to the list of genres/tags.
 
 # Doesn't work? Contact me!
@@ -43,4 +46,5 @@ If you have any problems - contact me!
 [![downloaded.png](https://i.postimg.cc/43XxyM7j/downloaded.png)](https://postimg.cc/Wdfvf577)
 
 Enjoy the music! (especially metal music!)
+
 By Neoclassic VII
