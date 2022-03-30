@@ -129,10 +129,17 @@ def main():
         thechoice = input()
 
         if thechoice <= str(6):
-          global link,filename
-          link = search ['result'][int(thechoice)]['link']
-          filename = f"{search ['result'][int(thechoice)]['title']}.mp3"
-          print()
+          try:
+            global link,filename
+            link = search ['result'][int(thechoice)]['link']
+            filename = f"{search ['result'][int(thechoice)]['title']}.mp3"
+            print()
+          except ValueError:
+            print()
+            time.sleep(0.6)
+            print(Fore.RED + "Choose the right one!" + Fore.WHITE)
+            time.sleep(0.8)
+            youtubeFinder(song)
         else:
           print()
           time.sleep(0.6)
@@ -154,6 +161,6 @@ def main():
     main()
 
 try:
-	main()
+  main()
 except KeyboardInterrupt:
-	sys.exit()
+  sys.exit()
