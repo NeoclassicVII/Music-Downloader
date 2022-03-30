@@ -36,5 +36,11 @@ If you have any problems - contact me!
 - Instagram: boka.musayelyan
 - Email: neoclassicvii@gmail.com
 
+# Screenshots
+[![musicdownloader.png](https://i.postimg.cc/NFHNWd4j/musicdownloader.png)](https://postimg.cc/MfzbBbNC)
+[![choosethesong.png](https://i.postimg.cc/hjkFzzZh/choosethesong.png)](https://postimg.cc/Hc9vFxgC)
+[![downloading.png](https://i.postimg.cc/B6sHqM4v/downloading.png)](https://postimg.cc/8FKj4dF8)
+[![downloaded.png](https://i.postimg.cc/43XxyM7j/downloaded.png)](https://postimg.cc/Wdfvf577)
+
 Enjoy the music! (especially metal music!)
 By Neoclassic VII
