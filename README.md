@@ -29,3 +29,12 @@ For example:
 etc.
 
 All of these tags are on LastFM, it's important. Just search on LastFM for the tags you want, check, if they exist and if there are songs with those tags and then add them to the list of genres/tags.
+
+# Doesn't work? Contact me!
+If you have any problems - contact me!
+- Telegram: @MetalheadDumbledore
+- Instagram: boka.musayelyan
+- Email: neoclassicvii@gmail.com
+
+Enjoy the music! (especially metal music!)
+By Neoclassic VII
